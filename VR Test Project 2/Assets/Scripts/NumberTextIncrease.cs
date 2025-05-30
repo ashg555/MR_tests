@@ -8,8 +8,8 @@ public class NumberTextIncrease : MonoBehaviour
 
     public void ButtonPressed()
     {
-        counter++;
         numberText.text = counter + "";
+        counter++;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
